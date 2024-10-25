@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.age-calculator{
+    margin: 50px;
+    padding: 20px;
+    max-width:500px;
+    height: 400px;
+    background-color:bisque;
+    border-bottom-right-radius: 25%;
+}
+form{
+    margin-top: 30px;
+    display: flex;
+}
+input{
+    width: 100px;
+    height: 100px;
+}
+.day{
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+.month{
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+.year{
+    display: flex;
+    flex-direction: column;
+}
+h2{
+    margin-top: 30px;
+}
+h3{
+    margin-right: 50px;
+}
+.age-display{
+    margin-top: 15px;
+    display: flex;
+}
